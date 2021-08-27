@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  background-color: #9099a2;
+  text-decoration: none;
+}
+.center {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: absolute;
+}
+.center,
+.friends {
+  left: 50%;
+  text-align: center;
+}
+.friends {
+  border: 2px solid #6d7993;
+  background-color: #96858f;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+  color: #f4f4f4;
+  -webkit-transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s;
+  width: 170px;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  position: relative;
+  vertical-align: middle;
+}
+.friends:hover {
+  background-color: #f4f4f4;
+  color: #000;
+}
+.name {
+  font-size: 25px;
+  color: #000;
+  text-shadow: 0 0 20px 3e-7b;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: bold;
+}
+.container2 .friend {
+  width: 90%;
+  display: flex;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.container2 .description {
+  color: #000;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+  max-height: 130px;
+  font-family: 'Roboto', sans-serif;
+}
+.container2 {
+  width: calc(90% - 20px);
+  left: 5%;
+  padding: 1px 10px 10px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  position: relative;
+}
+.container-2 .desc_container {
+  width: calc(100% - 300px);
+}
+.avatar img {
+  width: 160px !important;
+  height: 160px !important;
+  background: #383838;
+  border-radius: 300px;
+  position: relative;
+  margin-right: 1px;
+  background-size: 100%;
+  border: 5px solid #000;
+}
+.allies {
+  font-size: 50px;
+  color: #000;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.3137254901960784);
+  text-align: center;
+  top: 70px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+.container2 .friend .desc_container .name {
+  font-size: 30px;
+  color: #000;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.23137254901960785);
+  font-family: 'Roboto', sans-serif;
+}
+.contact {
+  margin: 0;
+  width: 100%;
+  height: 100px;
+}
+.contact .container .instagram img {
+  width: 50px;
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.bucetinha {
+  position: center;
+  padding-top: 15px;
+  
+}
+@media only screen and (max-width: 760) {
+  .friend {
+    display: block !important;
+  }
+  .avatar img {
+    padding-left: 40px;
+  }
+  .desc_container {
+    width: 100%;
+    text-align: center;
+  }
+}
